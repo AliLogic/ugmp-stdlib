@@ -51,7 +51,6 @@ native TogglePlayerInfiniteSprint(playerid, enable);
 native TogglePlayerSun(playerid, enable);
 native TogglePlayerRubbish(playerid, enable);
 native IsRubbishVisibleForPlayer(playerid);
-native TogglePlayerRealTimeShadows(playerid, enable);
 native TogglePlayerGrass(playerid, enable);
 
 native Float:GetPlayerAircraftHeightLimit(playerid);
