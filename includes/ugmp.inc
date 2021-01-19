@@ -42,6 +42,9 @@
 //// Math
 native MT19937_Random(a, b);
 
+//// Animations
+native IsValidAnimationAndLibrary(animlib[], animname[]);
+
 //// Player-specific
 native SetAircraftHeightLimitForPlayer(playerid, Float:heightLimit);
 native SetJetpackHeightLimitForPlayer(playerid, Float:heightLimit);
