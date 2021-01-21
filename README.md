@@ -3,7 +3,7 @@ Mirroring UG:MP libraries and plugin with support for sampctl as available on ht
 
 # How to Install?
 ```pawn
-sampctl package install AliLogic/UGMP-Compat:1.0
+sampctl package install AliLogic/ugmp-stdlib:1.0
 ```
 
 # Notes
