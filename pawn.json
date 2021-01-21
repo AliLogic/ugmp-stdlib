@@ -4,20 +4,20 @@
 	"include_path": "includes",
 	"resources": [
 		{
-			"name": "ugmp-compat-1.0-linux.tar.gz",
+			"name": "ugmp-compat-1.0.1-linux.tar.gz",
 			"platform": "linux",
 			"archive": true,
 			"plugins": ["ugmp.so"]
 		},
 		{
-			"name": "ugmp-compat-1.0-win32.zip",
+			"name": "ugmp-compat-1.0.1-win32.zip",
 			"platform": "windows",
 			"archive": true,
 			"plugins": ["ugmp.dll"]
 		}
 	],
 	"runtime": {
-		"plugins": ["AliLogic/UGMP-Compat"]
+		"plugins": ["AliLogic/ugmp-stdlib"]
 	},
 	"dependencies": [
 		"pawn-lang/sa-mp-fixes"
