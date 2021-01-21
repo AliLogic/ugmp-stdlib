@@ -2,8 +2,7 @@
 	"user": "AliLogic",
 	"repo": "ugmp-stdlib",
 	"include_path": "includes",
-	"resources":
-	[
+	"resources": [
 		{
 			"name": "ugmp-compat-1.0-linux.tar.gz",
 			"platform": "linux",
@@ -17,8 +16,14 @@
 			"plugins": ["ugmp.dll"]
 		}
 	],
-	"runtime":
-	{
+	"runtime": {
 		"plugins": ["AliLogic/UGMP-Compat"]
-	}
+	},
+	"dependencies": [
+		"pawn-lang/sa-mp-fixes"
+	],
+	"contributors": [
+		"alilogic",
+		"alextwothousand"
+	]
 }

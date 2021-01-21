@@ -28,19 +28,9 @@
 	By Y-Less & co.
 	Repo: https://github.com/pawn-lang/sa-mp-fixes
 */
+#tryinclude <fixes>
 #if !defined _inc_fixes
-	// If fixes.inc hasn't been included, include it.
-	// This ensures backwards compatibility with gamemodes that already have it.
-
-	#if defined USING_SAMPCTL
-		#tryinclude <fixes>
-
-		#if !defined _inc_fixes
-			#error fixes hasn't been installed using sampctl. Please install it!
-		#endif
-	#else
-		#include <vendor/fixes/fixes>
-	#endif
+	#error You need to have sa-mp-fixes. You can obtain it from "https://github.com/pawn-lang/sa-mp-fixes".
 #endif
 
 /*
@@ -48,4 +38,4 @@
 	By the UGMP team.
 	Repo: closed source
 */
-#include <ugmp>
+#include "ugmp"
