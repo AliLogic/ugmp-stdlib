@@ -17,10 +17,13 @@
 		}
 	],
 	"runtime": {
-		"plugins": ["AliLogic/ugmp-stdlib"]
+		"plugins": [
+			"AliLogic/ugmp-stdlib"
+		]
 	},
 	"dependencies": [
-		"pawn-lang/sa-mp-fixes"
+		"pawn-lang/sa-mp-fixes",
+		"samp-plugin-crashdetect:v4.20"
 	],
 	"contributors": [
 		"alilogic",

@@ -24,14 +24,18 @@
 #include <a_samp>
 
 /*
+	Crashdetect
+	By Zeex.
+	Repo: https://github.com/Zeex/samp-plugin-crashdetect
+*/
+#include <crashdetect>
+
+/*
 	fixes
 	By Y-Less & co.
 	Repo: https://github.com/pawn-lang/sa-mp-fixes
 */
-#tryinclude <fixes>
-#if !defined _inc_fixes
-	#error You need to have sa-mp-fixes. You can obtain it from "https://github.com/pawn-lang/sa-mp-fixes".
-#endif
+#include <fixes>
 
 /*
 	ugmp
