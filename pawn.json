@@ -4,13 +4,13 @@
 	"include_path": "includes",
 	"resources": [
 		{
-			"name": "ugmp-compat-1.0.2-linux.tar.gz",
+			"name": "^ugmp-compat-(.*)-linux.tar.gz$",
 			"platform": "linux",
 			"archive": true,
 			"plugins": ["ugmp.so"]
 		},
 		{
-			"name": "ugmp-compat-1.0.2-win32.zip",
+			"name": "^ugmp-compat-(.*)-win32.zip$",
 			"platform": "windows",
 			"archive": true,
 			"plugins": ["ugmp.dll"]
