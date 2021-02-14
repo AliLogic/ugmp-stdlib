@@ -3,5 +3,5 @@
 // To update the version number for a new release, run "sampctl package release"
 
 #define UGMP_STDLIB_VERSION_MAJOR (1)
-#define UGMP_STDLIB_VERSION_MINOR (0)
-#define UGMP_STDLIB_VERSION_PATCH (2)
+#define UGMP_STDLIB_VERSION_MINOR (1)
+#define UGMP_STDLIB_VERSION_PATCH (0)
